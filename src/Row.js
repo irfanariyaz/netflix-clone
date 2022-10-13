@@ -22,14 +22,19 @@ function Row({title,fetchurl,islargeRow=false}) {
     <div className='row'>
             <h2>{title}</h2>
             <div className="row_posters">
-                {movies.map(movie=>(
-                    <img 
-                    className={`row_poster ${islargeRow && "row_posterLarge"}`} 
-                    key={movie.id}
-                    src={`${base_url}${
-                        islargeRow?movie.poster_path :movie.backdrop_path
-                    }`} alt={movie.name} />
-                ))}
+                {movies.map(
+                    (movie)=>
+                    ((islargeRow && movie.poster_path) ||
+                    (!islargeRow && movie.backdrop_path)) && (
+                        <img 
+                        className={`row_poster ${islargeRow && "row_posterLarge"}`} 
+                        key={movie.id}
+                        src={`${base_url}${
+                            islargeRow?movie.poster_path :movie.backdrop_path
+                        }`} alt={movie.name} />  
+                    )
+                    
+                )}
             </div>
             
     </div>

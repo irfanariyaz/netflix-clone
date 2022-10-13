@@ -10,41 +10,13 @@ export default function HomeScreen() {
     <div className='homescreen'>
     <Nav />
    <Banner />
-   <Row 
-   title= "NETFLIX ORIGINALS"
-   fetchurl = {requests.fetchNetflixOriginals}
-   islargeRow
-   />
-   <Row
-   title= "Trending Now"
-   fetchurl = {requests.fetchTrending}
-   
-   />
-   <Row 
-   title= "Top Rated"
-   fetchurl = {requests.fetchTopRated}
-   
-   />
-   <Row 
-   title= "Comedy Movies"
-   fetchurl = {requests.fetchComedyMovies}
-   
-   />
-   <Row 
-   title= "Horror Movies"
-   fetchurl = {requests.fetchHorrorMovies}
-   
-   />
-   <Row 
-   title= "Romance Movies"
-   fetchurl = {requests.fetchRomanceMovies}
-   
-   />
-   <Row 
-   title= "Documentation"
-   fetchurl = {requests.fetchDocumentaries}
-   
-   />
+   <Row  title= "NETFLIX ORIGINALS"   fetchurl = {requests.fetchNetflixOriginals}   islargeRow   />
+   <Row  title= "Trending Now"   fetchurl = {requests.fetchTrending}   />
+   <Row  title= "Top Rated"  fetchurl = {requests.fetchTopRated}  />
+   <Row  title= "Comedy Movies"   fetchurl = {requests.fetchComedyMovies}  />
+   <Row  title= "Horror Movies"  fetchurl = {requests.fetchHorrorMovies}  />
+   <Row  title= "Romance Movies" fetchurl = {requests.fetchRomanceMovies}  />
+   <Row  title= "Documentation"   fetchurl = {requests.fetchDocumentaries} />
     </div>
   )
 }
