@@ -1,0 +1,45 @@
+.signUpScreen__login
+{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 70px;
+    background: rgb(0, 0, 0,.85);
+}
+.signUpScreen__login h1{
+
+text-align: left;
+margin-bottom: 20px;
+}
+.signUpScreen__form{
+    display: flex;
+    flex-direction: column;
+}
+.signUpScreen__login > form>input{
+    padding: 5px 20px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    outline-width: 0;
+    border-radius: 5px;
+    border: none;
+}
+.signUpScreen__button{
+    background: #e50914;
+    padding: 20px;
+    color: #fff;
+    font-size: 1rem;;
+    font-weight: 600;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+   
+    cursor: pointer;
+}
+.signUpScreen__gray
+{
+    color: rgb(255, 255, 255,.5) ;
+}
+.signUpScreen__link:hover{
+text-decoration: underline;
+cursor: pointer;
+}
