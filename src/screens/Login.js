@@ -16,7 +16,7 @@ function Login() {
                     <SignUpScreen />
                     )
                     
-                
+                 
                :(<>
                     <h1>Unlimited films, TV programs and more.</h1>
                     <h2>Watch anywhere. Cancel at any time. </h2>

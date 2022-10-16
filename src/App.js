@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import HomeScreen from './screens/HomeScreen';
 import Login from './screens/Login';
+import MovieProfile from "./screens/MovieProfile"
 import ProfileScreen from './screens/ProfileScreen';
 import './App.css';
 import {
@@ -49,9 +50,10 @@ function App() {
        
    
          
-         <Route  path="/profile" element={<ProfileScreen />
+         <Route  path="/profile" element={<ProfileScreen />} />
+         <Route path='/movie-:movieid' element={<MovieProfile />} />
              
-        } />
+        
           </Routes>
          )}
          

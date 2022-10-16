@@ -1,0 +1,60 @@
+.movieProfile{
+    color: rgb(255, 255, 255,.8);
+    height: 100vh;
+    position: relative;
+    
+}
+.movieProfile__gradient{
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(0,0,0,0.9)30%,rgb(0,0,0,0.3)60%,rgb(0,0,0,0.3)10%);
+}
+.movieProfile__body{
+    position:absolute;
+    left: 7%;
+    top: 40%;
+    max-width: 500px;
+
+}
+
+.loginscreen__avatar{
+    height: 50px;
+    position: absolute;
+    right: 0;
+    padding: 20px 30px;
+}
+.star{
+    width: 30px;
+}
+.movieProfile__rating{
+    display: flex;
+    gap: .8rem;
+    margin-bottom: 2rem;
+    }
+    .movieProfile__rating>img{
+        object-fit: contain;
+    }
+.movieProfile__rating>h4{
+    display: inline-block;
+    align-self: center;
+    font-size: 1.5rem;
+}
+.movieProfile__buttons{
+    margin-top: 2rem;
+   
+}
+.movieProfile__button{
+    padding: 15px 20px;
+     width: 40%;
+    background-color: #e50914;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.movieProfile__button:hover{
+  background-color: #8d2a2f;
+}

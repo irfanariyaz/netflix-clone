@@ -7,7 +7,7 @@ function Nav() {
 const [show ,setShow]=useState(false)
 const navigate = useNavigate()
 const transitionNavBar = ()=>{
-  if (window.scrollY>100){
+  if (window.scrollY>100){ 
     setShow(true)
   }
   else{
