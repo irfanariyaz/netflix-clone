@@ -50,3 +50,35 @@ flex: 1; /*use available space*/
     margin-top: 10px;
     padding: 5px;
 }
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  .profilescreenButton {
+  
+    background: #f54c26;
+    padding: 1rem;
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+    border: 0;
+    font-weight: 500;
+    cursor: pointer;
+    letter-spacing: 0.6;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    box-shadow: 0px 4px 5.5px 0px rgba(0, 0, 0, 0.07);
+  }
+  .profilescreenButton:hover {
+    opacity: 0.8;
+  }
+  .planSpan{
+    color:#f54c26 ;
+  }
