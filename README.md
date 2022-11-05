@@ -1,46 +1,5 @@
-# Getting Started with Create React App and Redux
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![netflix4](https://user-images.githubusercontent.com/32553276/200138471-82e0f241-94f5-4f81-a861-05f8ab61fb0c.png)
+![netflix5](https://user-images.githubusercontent.com/32553276/200138474-9b024b27-45db-4876-80c0-24c5aae7ec73.png)
+![netflix1](https://user-images.githubusercontent.com/32553276/200138480-80300614-3e23-4d89-83ed-939833bbea4a.png)
+![netflix2](https://user-images.githubusercontent.com/32553276/200138483-4a4da67d-3ace-4c39-9ffe-4f07162114ad.png)
+![netflix3](https://user-images.githubusercontent.com/32553276/200138488-c8e6f00d-36d0-42c9-b960-97af8449781b.png)
