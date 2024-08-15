@@ -15,7 +15,7 @@ function SignUpScreen() {
       passwordRef.current.value
       )
       .then((authUser)=>{
-      console.log(authUser)
+      console.log("user registered",authUser)
       })
       .catch((error)=>{
         alert(error.message)
