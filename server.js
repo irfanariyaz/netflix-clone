@@ -29,7 +29,7 @@ app.post('/create-checkout-session', async (req, res) => {
       },
     ],
     mode: 'subscription',
-    success_url: `http://localhost:3000/profile?session_id={CHECKOUT_SESSION_ID}&plan=${plan}`,
+    success_url: `https://netflix-sqgb.onrender.com/profile?session_id={CHECKOUT_SESSION_ID}&plan=${plan}`,
     cancel_url: `${YOUR_DOMAIN}?canceled=true`,
   });
 
