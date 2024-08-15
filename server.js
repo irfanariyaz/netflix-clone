@@ -2,12 +2,12 @@
 const stripe = require('stripe')('sk_test_51Lv3nVBPCMt4AAIlGtLB4NchkyzvqrosFh0XMHay8NN1vQso8cn7NbD238sQiriwlxTP62M83zuLP02vOv3kvLlN00eS5dLZbG');
 const express = require('express');
 const app = express();
-app.use(express.static('public'));
+app.use(express.static('build'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-const YOUR_DOMAIN = 'http://localhost:3000';
+const YOUR_DOMAIN = 'https://netflix-sqgb.onrender.com';
 
 app.post('/create-checkout-session', async (req, res) => {
   const prices = await stripe.prices.list({
